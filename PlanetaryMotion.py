@@ -7,7 +7,7 @@ from scipy.interpolate import CubicSpline
 import matplotlib.animation as animation
 
 ## IMPORTING DATASET
-data=pd.read_csv("/home/kishore/Desktop/Numerical_Methods/Module2/Planet_data.csv",parse_dates=["date"])
+data=pd.read_csv("./Planet_data.csv",parse_dates=["date"])
 
 ## Separating the planet data from the dataset
 last=687        ## Length of a MARTIAN year
